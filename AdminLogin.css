@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  font-family: sans-serif;
+  /* background-color: gainsboro; */
+  /* padding: 15%; */
+}
+h2,
+h1 {
+  text-align: center;
+  color: black;
+  font-size: larger;
+}
+.formpar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logform {
+  background-color: whitesmoke;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: medium;
+  position: absolute;
+  border: 1px solid white;
+  top: 20%;
+  left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.emailbox {
+  width: 50%;
+  border: none;
+  margin-left: 25%;
+  border-bottom: 1px solid;
+  text-align: left;
+  height: 30px;
+  background-color: white;
+}
+
+.Passwordbox {
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: left;
+  height: 30px;
+  background-color: white;
+}
+.submitbox {
+  width: 50%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: 25%;
+}
+.submitbox:hover {
+  background-color: white;
+  color: black;
+}
+label {
+  margin-left: 25%;
+}
+.Regform {
+  background-color: rgb(224, 224, 224);
+  width: 40%;
+  font-family: sans-serif;
+  font-size: medium;
+  position: absolute;
+  border: 1px solid white;
+  top: 5%;
+  left: 30%;
+  height: 85%;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.namebox {
+  width: 50%;
+  border: none;
+  margin-left: 25%;
+  border-bottom: 1px solid;
+  text-align: left;
+  height: 30px;
+  background-color: whitesmoke;
+}
+.phonebox {
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: left;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.dashboard {
+  font-family: sans-serif;
+  height: 50%;
+  font-size: 1em;
+  width: 100%;
+  padding: 20px;
+  /* margin: 0%; */
+  padding: 0%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: gainsboro;
+}
+
+.right {
+  float: right;
+  color: black;
+  background-color: burlywood;
+  padding: 16px;
+  margin-right: 2px;
+}
+.userbut {
+  float: right;
+  color: black;
+  background-color: burlywood;
+  padding: 16px;
+}
+.Usubmitbox {
+  width: 25%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-left: 20%;
+}
+.Usubmitbox:hover {
+  background-color: white;
+  color: black;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+td,
+th {
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: rgb(236, 236, 236);
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .formpar,
+  .mainbox {
+    width: 100%;
+    left: 0%;
+  }
+  .Usubmitbox {
+    width: 30%;
+  }
+  .emailbox,
+  .Passwordbox {
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  table{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .formpar,
+  .mainbox {
+    width: 100%;
+    padding: 0%;
+  }
+}
